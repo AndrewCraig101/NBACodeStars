@@ -173,7 +173,6 @@ const handleToggle = (team) => {
 
   if (isChecked) {
     getRosterStats(team);
-    // displayRosterStats();
   } else {
     displayRosterBio();
   }
